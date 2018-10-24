@@ -1,0 +1,12 @@
+version: '3'
+services:
+  doccano:
+    container_name: doccano-web
+    build: ./
+    ports:
+      - 1664:8000
+    volumes:
+      - ./:/doccano_data
+    restart: on-failure
+    tty: true
+    stdin_open: true
