@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 WORKDIR /doccano_data/app
 RUN echo "superuser\nadmin@mail.com\nuserrootroot\nuserrootroot" | python manage.py createsuperuser
 
-CMD [ "python", "manage.py","runserver", "0.0.0.0:8000"]
+CMD [ "python", "manage.py","runserver", "0.0.0.0:1664"]
