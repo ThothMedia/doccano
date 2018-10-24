@@ -8,5 +8,6 @@ RUN pip install -r requirements.txt
 
 WORKDIR /doccano_data/app
 RUN echo "superuser\nadmin@mail.com\nuserrootroot\nuserrootroot" | python manage.py createsuperuser
+RUN python manage.py migrate
 
 CMD [ "python", "manage.py","runserver", "0.0.0.0:1664"]
