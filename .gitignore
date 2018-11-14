@@ -197,3 +197,6 @@ pip-selfcheck.json
 app/db.sqlite3
 app/db.sqlite3
 app/app/settings.py
+app/db.sqlite3
+app/db.sqlite3
+*.sqlite3
