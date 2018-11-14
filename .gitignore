@@ -193,3 +193,7 @@ pip-selfcheck.json
 
 /data/raw/*
 /data/sparql/*
+.vscode/settings.json
+app/db.sqlite3
+app/db.sqlite3
+app/app/settings.py

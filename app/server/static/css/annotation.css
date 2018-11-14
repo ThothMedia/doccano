@@ -144,10 +144,10 @@ body {
 }
 
 .content .tag {
-  font-size: 16pt;
+  font-size: 11pt;
   height: 1.5em;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
 }
 
 :focus {

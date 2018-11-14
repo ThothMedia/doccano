@@ -147,6 +147,9 @@ p {
   background-color: white;
   margin-top: 20px;
 }
+.card-content {
+  padding:0;
+}
 
 .card-header-title {
   padding: 1.5rem;
